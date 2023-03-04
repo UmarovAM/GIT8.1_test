@@ -92,3 +92,23 @@ git commit -a -m "finish"
 git checkout master
 nano gitfile.txt
 git merge dev
+
+
+
+git clone https://github.com/UmarovAM/git2.git
+git status
+cd git2
+git status
+ls -la
+git remote rename origin old-origin
+git remote add origin https://github.com/UmarovAM/git2.git
+git checkout -b my-branch
+nano git2.txt
+git diff
+git add .
+git diff --staged
+git commit -m "git2.txt 2"
+git log
+git diff ec2cb859ee761f2d299bdfd7d068ce9dbfe59042
+git push
+git push --set-upstream origin my-branch
