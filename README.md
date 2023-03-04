@@ -77,8 +77,8 @@ git push origin master
 Для того чтобы скачать себе последние изменения из репозитория:
 git pull
 
-### Задание 4
-
+### 
+```
 nano error.txt
 git add error.txt
 git commit -a -m "dev add error"
@@ -87,14 +87,13 @@ rm error.txt
 git reset --soft89a9a317cf71667194e7cc9254df6fd39796dcb
 git rm error.txt
 git reset --hard 589a9a317cf71667194e7cc9254df6fd39796dcb
-
 git commit -a -m "finish"
 git checkout master
 nano gitfile.txt
 git merge dev
+```
 
-
-
+```
 git clone https://github.com/UmarovAM/git2.git
 git status
 cd git2
@@ -112,3 +111,4 @@ git log
 git diff ec2cb859ee761f2d299bdfd7d068ce9dbfe59042
 git push
 git push --set-upstream origin my-branch
+```
